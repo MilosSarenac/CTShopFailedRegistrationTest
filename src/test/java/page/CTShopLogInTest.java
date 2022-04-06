@@ -31,10 +31,10 @@ public class CTShopLogInTest extends BaseTest {
     WebElement posaljiButton;
     @FindAll({
             @FindBy(css = ".alert.alert-succes")
-    })private List<WebElement> uspesnaRegistracija;
+    })public List<WebElement> uspesnaRegistracija;
     @FindAll({
             @FindBy(css = ".alert.alert-warning")
-    })private List<WebElement> neuspesnaRegistracija;
+    })public List<WebElement> neuspesnaRegistracija;
     @FindBy(css = ".ub-emb-close")
     WebElement reklama2XButton;
 
